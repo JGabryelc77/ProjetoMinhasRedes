@@ -7,8 +7,8 @@
 }
 
 html, body{
-    height: 100vh;
-    width: 100vw;
+    height: 95vh;
+    width: 95vw;
 }
 
 body {
@@ -38,4 +38,22 @@ iframe#inicial {
     left: 22px;
     width: 270px;
     height: 473px;
+}
+
+section#rsociais {
+    text-align: left;
+}
+section#rsociais img {
+    box-sizing: border-box;
+    width: 60px;
+    margin: 30px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.500);
+}
+
+section#rsociais img:hover{
+    border: 2px solid white;
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.500);
+    transition: transform 0.3s;
 }
