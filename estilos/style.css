@@ -6,9 +6,14 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
 html, body{
-    height: 95vh;
-    width: 95vw;
+    height: 100vh;
+    width: 100vw;
 }
 
 body {
@@ -32,7 +37,7 @@ section#celular {
     background: url(../imagens/frame-iphone.png) no-repeat;
 }
 
-iframe#inicial {
+iframe#tela {
     position: relative;
     top: 80px;
     left: 22px;
